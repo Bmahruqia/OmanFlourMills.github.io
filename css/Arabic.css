@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Smartphones (portrait and landscape) ----------- */
+@media screen and (max-width: 480px) and (min-width: 300px) 
+{
+  #quote__text {
+    top:49% ;
+    right: 38%;
+    text-align: center;
+    font-size: 100%;
+   
+  }
+}
+@media screen and (max-width: 680px) and (min-width:481px) 
+{
+  #quote__text {
+    top:49% ;
+    right: 38%;
+    text-align: center;
+    font-size: 140%;
+   
+  }
+}
+
+@media screen and (max-width: 760px) and (min-width:685px) 
+{
+  #quote__text {
+    top:49% ;
+    right: 38%;
+    text-align: center;
+    font-size: 190%;
+   
+  }
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+@media screen and (min-width : 768px) and (max-width : 1024px) {
+
+  #quote__text {
+    top:49% ;
+    right: 40%;
+    text-align: center;
+    font-size: 200%;
+   
+  }
+
+  }
+
+
+@media screen and (min-width : 1025px) and (max-width : 1300px) {
+  #quote__text {
+    top:49% ;
+    right: 40%;
+    text-align: center;
+    font-size: 270%;
+  }
+
+  }
+
+  @media screen and (min-width : 1301px) {
+
+    #quote__text {
+      top:49% ;
+      right: 40%;
+      text-align: center;
+      font-size: 390%;
+     
+    }
+  
+    }
+
+
+
+
+body {
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+ 
+
+}
+
+section {
+  display: grid;
+
+  justify-items: center;
+
+ 
+}
+#into
+{
+  color: black;
+  padding: 5% 5% 5% 5%;
+}
+#intro h3
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 90%;
+  text-align: center;
+color: #9e1c2a;
+}
+#intro img
+{
+  width: 20%;
+  height: 75%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  #quote__text {
+    color:#603200;
+    position: absolute;
+    text-align: center;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  #capture {
+    background-color: burlywood;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+  
+  }
+  .input-group.mb-3
+  {
+    margin-top: 10px;
+    width: 85%;
+  }
+  #download
+  {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #render
+  {
+    display: none;
+  }
